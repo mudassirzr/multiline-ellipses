@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/style.scss';
 import styled from 'styled-components'
 
 const TextEllipses = (props)=>{
