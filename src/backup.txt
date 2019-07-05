@@ -1,0 +1,31 @@
+import React from 'react';
+import './styles/style.scss';
+import styled from 'styled-components'
+
+// class TextEllipses extends Component {
+//   // constructor(){
+//   //   super();
+//   //   // this.state={
+//   //   //   fontSize:this.props.fontSize || '12px',
+      
+//   //   // }
+//   // }
+
+  
+//   render(){
+//     return (
+//       // <div className="ellipses_main_container">
+//       <Wrapper>
+//           <p className="sub_wrapper">
+//             <span className='actual_ellipsis_content'>Men's Daily Vintage / Basic Fall / Winter Plus Size Long Jacket, Solid Colored, Winter Plus Size Long Jacket Solid Colored, Winter Plus Size Long Jacke</span>
+//           </p>
+//       </Wrapper>
+//       // </div>
+//     );
+//   }
+  
+// }
+// const MainContainer =(props)=> <div>{props.children}</div>
+// const MainContainer =(props)=>styled.div`
+//   width: ${props.width ? props.width:'200px'};
+// `;
