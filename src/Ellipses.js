@@ -5,14 +5,15 @@ const TextEllipses = (props)=>{
   let fontValue=parseInt(props.fontSize)
   let height=props.lines*fontValue + 'px'
   
-  return (<MainContainer width={props.width} >
-    <SubWrapper fontSize={props.fontSize} lines={props.lines} height={height}>
-      <EllipsesContent>{props.text}</EllipsesContent>
+  return (<MainContainer width={props.width} background={props.bgColor} >
+    <SubWrapper color={props.fontColor} background={props.bgColor} fontSize={props.fontSize} lines={props.lines} height={height}>
+      <EllipsesContent color={props.fontColor}>{props.text}</EllipsesContent>
     </SubWrapper>
   </MainContainer>)
 }
 const MainContainer =styled.div`
   width:  ${props => props.width || "100%"};
+  background: ${props => props.background || "#fff"}
 `;
 const SubWrapper = styled.p`
   overflow: hidden;
@@ -42,13 +43,15 @@ const SubWrapper = styled.p`
         margin-left: -20px;
         padding-left: 1px;
         text-align: center;
-        background: #fff;
+        background: ${props => props.background || "#fff"};
+        color: ${props => props.color || "#fff"}
     }
   `;
 const EllipsesContent=styled.span`
     float: right;
       margin-left: -1px;
       width: 100%;
+      color: ${props => props.color || "#fff"}
   `
 
 export default TextEllipses;
