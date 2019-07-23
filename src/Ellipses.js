@@ -44,14 +44,14 @@ const SubWrapper = styled.p`
         padding-left: 1px;
         text-align: center;
         background: ${props => props.background || "#fff"};
-        color: ${props => props.color || "#fff"}
+        color: ${props => props.color || "#000"}
     }
   `;
 const EllipsesContent=styled.span`
     float: right;
       margin-left: -1px;
       width: 100%;
-      color: ${props => props.color || "#fff"}
+      color: ${props => props.color || "#000"}
   `
 
 export default TextEllipses;
