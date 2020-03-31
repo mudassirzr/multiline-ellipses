@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components'
 
-const TextEllipses = (props)=>{
-  let fontValue=parseInt(props.fontSize)
+function TextEllipses(props){
+  let fontValue=parseInt(props.fontSize, 10)
   let height=props.lines*fontValue + 'px'
   
-  return (<MainContainer width={props.width} background={props.bgColor} >
-    <SubWrapper color={props.fontColor} background={props.bgColor} fontSize={props.fontSize} lines={props.lines} height={height}>
+  return (
+  <MainContainer width={props.width} background={props.bgColor} >
+    <SubWrapper color={props.fontColor} background={props.bgColor} fontSize={fontValue+'px'} lines={props.lines} height={height}>
       <EllipsesContent color={props.fontColor}>{props.text}</EllipsesContent>
     </SubWrapper>
   </MainContainer>)
