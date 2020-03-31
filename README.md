@@ -1,7 +1,5 @@
 # Multiline Ellipses for React
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 multiline-ellipses-react is a react library that let's you cut short long texts with an ellipses (...).
 
 ## API
