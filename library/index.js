@@ -22,7 +22,7 @@ function TextEllipses(props){
       font-size: ${props.fontSize ?props.fontSize+"px": "13px"};
       line-height: ${props.fontSize ?props.fontSize+"px": "13px"};
       height: ${height};
-      width:100%;
+      width: 100%;
       margin: 0;
       display: inline-block;
     }
