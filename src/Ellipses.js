@@ -6,11 +6,12 @@ function TextEllipses(props){
   let height=props.lines*fontValue + 'px'
   
   return (
-  <MainContainer width={props.width} background={props.bgColor} >
-    <SubWrapper color={props.fontColor} background={props.bgColor} fontSize={fontValue+'px'} lines={props.lines} height={height}>
-      <EllipsesContent color={props.fontColor}>{props.text}</EllipsesContent>
-    </SubWrapper>
-  </MainContainer>)
+    <MainContainer width={props.width} background={props.bgColor} >
+      <SubWrapper color={props.fontColor} background={props.bgColor} fontSize={fontValue+'px'} lines={props.lines} height={height}>
+        <EllipsesContent color={props.fontColor}>{props.text}</EllipsesContent>
+      </SubWrapper>
+    </MainContainer>
+  )
 }
 const MainContainer =styled.div`
   width:  ${props => props.width || "100%"};
