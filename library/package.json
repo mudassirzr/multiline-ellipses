@@ -1,6 +1,6 @@
 {
   "name": "multiline-ellipses-react",
-  "version": "1.0.17",
+  "version": "1.0.2",
   "description": "Multi Line Ellipses Library",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,14 @@
     "url": "git+https://github.com/mudassirzr/multiline-ellipses.git"
   },
   "keywords": [
-    "text-ellipses",
-    "multiline-ellipses"
+    "react",
+    "react multiline ellipses",
+    "text ellipses",
+    "multiline ellipses",
+    "text ellipses"
   ],
   "author": "Mudasir Zahoor",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mudassirzr/multiline-ellipses/issues"
   },
