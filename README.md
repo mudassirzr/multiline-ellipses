@@ -6,14 +6,14 @@ multiline-ellipses-react is a react library that let's you cut short long texts 
 
 ## API
 
-| Props | Type | Description | Default Value
+| Props | Type | Default Value | Description
 | ------ | ------ | ------ | ------ |
-| text | string | text you want to ellipsize | No default value (Mandatory prop)
-| width (Optional) | string | width of the ellipsis element in the dom | 100%
-| bgColor (Optional) | string | background color of the ellipses element | #fff
-| fontColor (Optional) | string | color of the text in the ellipses element | #000
-| fontSize (Optional) | integer | font size of the text in ellipses element | 13px
-| line (Optional) | integer | number of lines to be shown | 13
+| text | string | No default value (Mandatory prop) | text you want to ellipsize
+| width (Optional) | string | 100% | width of the ellipsis element in the dom
+| bgColor (Optional) | string | #fff | background color of the ellipses element
+| fontColor (Optional) | string | #000 | color of the text in the ellipses element
+| fontSize (Optional) | integer | 13px | font size of the text in ellipses element
+| line (Optional) | integer | 13 | number of lines to be shown
 
 ### Example:
 ```sh
