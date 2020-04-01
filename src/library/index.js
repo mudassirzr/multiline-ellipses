@@ -15,13 +15,11 @@ function TextEllipses(props){
       let styleEl = document.querySelector('style[data-style="ellipses"]')
       styleEl.innerHTML=getStyleText()
     }
-  })
-  useEffect(()=>{
     return ()=>{
       let styleEl = document.querySelector('style[data-style="ellipses"]');
       document.head.removeChild(styleEl);
     }
-  },[])
+  })
 
   const getStyleText = () => {
     let outerDivClass = 
