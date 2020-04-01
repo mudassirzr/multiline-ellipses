@@ -1,6 +1,6 @@
 {
   "name": "multiline-ellipses-react",
-  "version": "1.0.21",
+  "version": "1.0.3",
   "description": "Multi Line Ellipses Library",
   "main": "index.js",
   "scripts": {
