@@ -1,7 +1,7 @@
 {
-  "name": "multiline-ellipses-react",
+  "name": "multiline-ellipsis-react",
   "version": "1.0.3",
-  "description": "Multi Line Ellipses Library",
+  "description": "Multi Line Ellipsis Library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,10 +12,10 @@
   },
   "keywords": [
     "react",
-    "react multiline ellipses",
-    "text ellipses",
-    "multiline ellipses",
-    "text ellipses"
+    "react multiline ellipsis",
+    "text ellipsis",
+    "multiline ellipsis",
+    ""
   ],
   "author": "Mudasir Zahoor",
   "license": "MIT",
