@@ -1,6 +1,6 @@
 {
   "name": "multiline-ellipsis-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Multi Line Ellipsis Library",
   "main": "index.js",
   "scripts": {
