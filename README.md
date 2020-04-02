@@ -10,8 +10,8 @@ multiline-ellipsis-react is a react library that let's you cut short long texts 
 | width (Optional) | string | 100% | width of the ellipsis element in the dom
 | bgColor (Optional) | string | #fff | background color of the ellipsis element
 | fontColor (Optional) | string | #000 | color of the text in the ellipsis element
-| fontSize (Optional) | integer | 13px | font size of the text in ellipsis element
-| line (Optional) | integer | 13 | number of lines to be shown
+| fontSize (Optional) | integer | 13 | font size of the text in ellipsis element
+| line (Optional) | integer | 2 | number of lines to be shown
 
 ### Example:
 ```sh
@@ -37,5 +37,5 @@ ReactDOM.render(
 ##### Note:
   - Please make sure that the props you pass to the component are of the same type (integer, string etc.) as mentioned above.
   - This library uses only CSS techniques to show ellipsis on the text.
-  - Let us know about the issues on our github page
+  - Let us know about the issues on our github page.
 
